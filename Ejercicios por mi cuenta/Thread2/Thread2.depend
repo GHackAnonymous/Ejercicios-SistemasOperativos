@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505922118 source:/home/isbek02/CWS/Thread2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+
