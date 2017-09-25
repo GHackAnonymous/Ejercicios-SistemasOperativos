@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506351133 source:/home/isbek02/CWS/EjercicioProductorConsumidor/main.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+
