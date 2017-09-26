@@ -4,3 +4,9 @@
 	<stdlib.h>
 	<pthread.h>
 
+1506437898 source:/home/isbek02/CWS/Ejercicios-SistemasOperativos/Ejercicios/EjercicioProductorConsumidor/main.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<semaphore.h>
+
