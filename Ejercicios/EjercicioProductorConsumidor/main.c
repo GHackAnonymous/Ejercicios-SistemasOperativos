@@ -47,11 +47,11 @@ void *rutinaConsumidor(void *arg)
 
 
         if(cnt <= 2 ){
-
+            cnt--;
             printf("                         El hilo %d a sacado el numero es: %d\n",(int)arg,valor[cnt]);
             printf("                         CNT: %d\n",cnt);
 
-            cnt--;
+
             printf("                         CNT: %d\n",cnt);
        }
         sem_post(&sMe);
