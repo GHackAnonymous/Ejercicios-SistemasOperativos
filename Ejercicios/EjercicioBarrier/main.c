@@ -9,7 +9,7 @@ int tareaEnBarrera = 0;
 sem_t sVacio, sMutex, sExit;
 
 int N = 3;
-int x;
+int x = 0;
 
 void *rutinaEnBarrier(void *arg){
 		
