@@ -1,0 +1,26 @@
+semaforo sSilla(2), sEntra(6), sAsientoBarbero(1), sBarbero(1), sBarberoTerminado(0);
+
+void tareaCleinte(){
+	
+	wait(sEntra);
+	wait(sSilla);
+	wait(sAsientoBarbero);
+	signal(sSilla);
+		//avisa al barbero
+
+	signal(sBarbero);
+	wait(sBarberoTerminado);
+	signal(sEntra);
+
+}
+void tareaBarbero(){
+	
+
+	wait(sBarbero);
+	sleep(x);
+	signal(sBarberoTerminado);
+	signal(sAsientoBarbero);
+
+	
+
+}
